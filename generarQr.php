@@ -51,7 +51,7 @@
                             <tr>
                                 <td><?php echo $archivo; ?></td>
                                 <td><img src="./back/QRS/<?php echo $archivo; ?>" alt="CodQr"> </td>
-                                <td>Descargar</td>
+                                <td><a href="./back/QRS/<?php echo $archivo; ?>" class = "btn btn-primary">Descargar</a></td>
                             </tr>
                     <?php
                         endif;
